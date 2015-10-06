@@ -133,6 +133,12 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>3.4.0.GA</version>
 			<type>pom</type>
+		</dependency
+		<dependency>
+			<groupId>com.github.jsimone</groupId>
+			<artifactId>webapp-runner</artifactId>
+			<version>7.0.57.2</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- spring-security -->
