@@ -17,7 +17,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>spring</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>    
     <servlet-mapping>
     	<servlet-name>default</servlet-name>
@@ -113,9 +113,9 @@
     <listener>
     	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-    <!-- <listener> -->
-    <!--     <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class> -->
-    <!-- </listener> -->
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+    </listener>
 	<!-- pagina de acceso denegado -->
 	<error-page>
         <error-code>403</error-code>
